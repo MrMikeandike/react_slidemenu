@@ -1,0 +1,57 @@
+.slidingmenu-div {
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+}
+.slidingmenu-double-width-container {
+    height: 100%;
+    width: 200%;
+}
+.slidingmenu-main {
+    width: 50%;
+    height: 100%;
+    float: left;
+}
+.slidingmenu-menu {
+    width: 50%;
+    height: 100%;
+    float: left;
+    
+}
+
+.slidingmenu-double-width-container.slide-main {
+    transition-duration: .2s;
+    transition-timing-function: ease-out;
+    transition-property: all;
+    margin-left: 0%;
+}
+.slidingmenu-double-width-container.slide-menu {
+    transition-duration: .4s;
+    transition-timing-function: ease-out;
+    transition-property: all;
+    margin-left: -95%;
+}
+
+.slide-menu:hover {
+     animation-name: excited-main;
+     animation-delay: 0s;
+     animation-iteration-count: infinite;
+     animation-play-state: running;
+     animation-timing-function: ease-in;
+     animation-duration: .5s;
+     animation-direction: alternate;
+     
+}
+.slide-menu .slidingmenu-menu:hover {
+    animation-name: none;
+    animation-iteration-count: 0;
+}
+@keyframes excited-main {
+    from {
+        margin-left: -95%;
+    } to {
+        margin-left: -80%;
+    }
+}
+
+

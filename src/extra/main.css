@@ -1,0 +1,15 @@
+.content-main {
+    height: 100%;
+    
+}
+
+.content-main #upper {
+    height: 50%;
+    background-color: #3bb
+}
+
+.content-main #lower {
+    overflow: auto;
+    height: 50%;
+    background-color: #b33
+}

@@ -1,0 +1,35 @@
+:root {
+    --color-blue: #3e999f;
+    --color-blue2: #4271ae;
+    
+    --color-grey1: #4d4d4c;
+    --color-grey2: #666969;
+    --color-grey3: #999999;
+    --color-grey4: #aeafad;
+    --color-grey5: #d1d1d1;
+    --color-grey6: #d6d6d6;
+    --color-orange: #f5871f;
+    --color-orange2: #c99e00;
+    --color-purple: #8959a8;
+    --color-red: #c82829;
+    --color-white: #ffffff;
+    --color-white2: #efefef;
+    --color-yellow: #718c00;
+  }
+
+html, body, #root {
+    height: 100%;
+    background-color: var(--color-grey2)
+}
+
+.center-container {
+    width: 60%;
+    height: 60%;
+    position: relative;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+    
+    background-color: var(--color-grey1)
+
+}

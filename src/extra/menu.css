@@ -1,0 +1,13 @@
+.content-menu {
+    height: 100%;
+}
+
+.content-menu #upper {
+    height: 50%;
+    background-color: #000;
+}
+
+.content-menu #lower {
+    height: 50%;
+    background-color: #fff;
+}
